@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redemption Presby Basic</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f2f2f2;
+    }
+
+    /* Top welcome */
+    .wel {
+      color: blue;
+      font-size: 35px;
+      text-align: center;
+      padding: 15px;
+      background: white;
+      font-weight: bold;
+    }
+
+    .we {
+      color: red;
+      font-size: 18px;
+    }
+
+    /* Hero section */
+    .Wi {
+      position: relative;
+      width: 100%;
+    }
+
+    .image {
+      display: block;
+      height: 500px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .text {
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #ffffff;
+      font-size: 50px;
+      font-weight: bold;
+      text-align: center;
+      width: 100%;
+      -webkit-text-stroke: 1px red;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    .text2 {
+      font-size: 50px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .Mtext {
+      display: inline-block;
+      margin-top: 10px;
+      background: linear-gradient(to right, #ff0000, #ff0000);
+      font-weight: bolder;
+      font-size: 25px;
+      padding: 5px 10px;
+    }
+
+    .Rtext {
+      color: #ffffff;
+      font-weight: bolder;
+      font-size: 25px;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    /* About section */
+    .About {
+      font-size: 27px;
+      text-align: center;
+      color: red;
+      padding: 20px 0 10px;
+      background: white;
+    }
+
+    .bg {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      padding: 20px;
+      background: linear-gradient(to right, #48005e, #001068);
+    }
+
+    .abs {
+      font-size: 23px;
+      color: white;
+      line-height: 1.6;
+      max-width: 900px;
+    }
+
+    /* Gallery */
+    .pic {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 25px 10px;
+      background: #48005e;
+    }
+
+    .image2, .image3, .image4 {
+      display: block;
+      height: 300px;
+      width: 370px;
+      max-width: 100%;
+      object-fit: cover;
+      background-color: white;
+      border-radius: 20px;
+    }
+
+    .na, .na2, .na3 {
+      color: #ffffff;
+      font-size: 23px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    /* Phone view */
+    @media screen and (max-width: 600px) {
+      .wel {
+        font-size: 26px;
+      }
+      .text {
+        font-size: 28px;
+      }
+      .text2 {
+        font-size: 28px;
+      }
+      .image {
+        height: 300px;
+      }
+      .abs {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wel">
+    Welcome To Redemption Presby Basic.
+  </div>
+
+  <div class="Wi">
+    <img class="image" src="20261031_083612.jpg" alt="School image">
+    <div class="text">
+      KONONGO REDEMPTION
+      <div class="text2">PRESBY BASIC</div>
+      <div class="Mtext">MOTTO:</div>
+      <div class="Rtext">FORWARD EVER BACKWARDS NEVER</div>
+    </div>
+  </div>
+
+  <div class="About">
+    <u>ABOUT THE SCHOOL</u>
+  </div>
+
+  <div class="bg">
+    <div class="abs">
+      Konongo Redemption Presby Basic, is one of the best schools in the Abosomtweagya circuit.
+      This School was established in the year 2012. And is located in the Asante Akyem Central,
+      Konongo Akratei Besa near Dabi Asaem Hotel. This School has four main departments,
+      these are Nursery, Kindergarten, Primary and Junior High School.
+      This School is the leading School in the circuit in terms of Academic performance,
+      Sporting Activities and population. This School has around seven hundred students
+      and thirty-five teaching staff. Our current headmistress is Madam Asante Joyce Kissi
+      and assisted by Mr. Agyei Ansah.
+    </div>
+  </div>
+
+  <div class="pic">
+    <div>
+      <div class="na">The J.H.S Block</div>
+      <img class="image2" src="20261031_083612.jpg" alt="JHS Block">
+    </div>
+
+    <div>
+      <div class="na2">The Primary Block</div>
+      <img class="image3" src="20261113_160157.jpg" alt="Primary Block">
+    </div>
+
+    <div>
+      <div class="na3">The Head Mistress</div>
+      <img class="image4" src="IMG-20261025-WA0014.jpg" alt="Head Mistress">
+    </div>
+  </div>
+
+</body>
+</html>
